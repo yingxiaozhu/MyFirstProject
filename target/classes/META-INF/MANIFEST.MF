@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: myFirstProject
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: yjchen
+Implementation-Vendor-Id: myFirstProject
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/myFirstProje
+ ct/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.itmuch.cloud.common.Application
+
