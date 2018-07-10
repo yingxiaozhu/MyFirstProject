@@ -20,6 +20,8 @@ public class UserInfo {
 	
 	private Date createTime;
 	
+	private long loginUsreId;
+	
 	private transient String salt;
 
 	public long getId() {
@@ -94,5 +96,12 @@ public class UserInfo {
 		this.salt = salt;
 	}
 
+	public long getLoginUsreId() {
+		return loginUsreId;
+	}
+
+	public void setLoginUsreId(long loginUsreId) {
+		this.loginUsreId = loginUsreId;
+	}
 
 }

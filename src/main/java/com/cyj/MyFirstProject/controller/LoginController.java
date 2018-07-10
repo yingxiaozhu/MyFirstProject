@@ -6,8 +6,6 @@ import java.security.NoSuchAlgorithmException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,7 +31,7 @@ private LoginService loginService;
 
 private static final String ACCOUNTISLOCKED="-1";
 
-private static final Logger LOGGER = LogManager.getLogger(LoginController.class);
+//private static final Logger LOGGER = LogManager.getLogger(LoginController.class);
 
 	/**
 	 * 用户登录
@@ -59,7 +57,7 @@ private static final Logger LOGGER = LogManager.getLogger(LoginController.class)
 			    }
 			  
 		   }catch(Exception e) {
-			   LOGGER.info("登录异常");
+			   //LOGGER.info("登录异常");
 		   }
 		return result;
 
